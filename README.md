@@ -22,6 +22,9 @@ Setelah mengetahui permasalahan business nya, kita bisa menargetkan tujuan kita 
 ## Data Overview
 Data Marketing di PT ABC yang kami analysis ini berasal dari Kaggle, data ini terdiri dari 1 data set utama. Setelah kita lakukan proses understanding dengan data set terdapat 14 kolom dan 2.240 baris.
 
+![data overview 1](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/5990d670-ebdf-4530-9262-f8375b9903f1)
+![data overview 2](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/5352a18d-d925-4b60-92b6-d98fb656dbf1)
+
 ## Data Pre-Processing dan Cleaning
 Sekarang kita masuk kedalam process data cleaning dan data preprocessing, pada tahap ini kami akan membersihkan data, memilih kolom yang digunakan dan mempersiapkan data untuk keperluan clustering. Berikut merupakan process cleaning dan preprocessing yang dilakukan:
 1. Handling missing values pada kolom pendapatan -> Isi dengan menggunakan nilai mean dari data, alasanya karena kami membutuhkan data tersebut untuk analysis sehingga kami handling dengan nilai mean dari kolom tersebut. Selain itu pada kolom pendapatan tidak ditemui nilai outlier sehingga kami handling dengan nilai mean.
@@ -33,10 +36,19 @@ Sekarang kita masuk kedalam process data cleaning dan data preprocessing, pada t
 ## Exploratory Data Analysis
 Setelah melewati proses cleaning data kami siap digunakan,di tahap EDA dan Insight ini kami akan menjabarkan hasil dari analyisis yang sudah kami lakukan.
 
+![Heatmap](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/c24a94f9-61fb-4035-9809-aa51b2193169)
+
 Kolom Pendapatan dan Income Group memiliki korelasi postif yang kuat dengan kolom Spent Wine, Spent Daging, Spent Ikan, Spent Buah, dan Spent Emas. Namun kolom Jumlah Tanggungan memiliki korelasi negatif dengan kolom Spent Wine, Spent Daging, Spent Ikan, Spent Buah, dan Spent Emas. Sehingga target campaign PT ABC merupakan customer dengan pendapatan yang menengah keatas atau customer dengan high income. Selain itu customer dengan jumlah tanggungan yang sedikit memiliki korelasi kuat dengan banyaknya total spending.
+
+![Segmentation](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/13b8d726-2a93-4875-ba0e-a80d6bebb53f)
 
 Jumlah customer pada kelompok segemnt 0 adalah 1397
 Jumlah customer pada kelompok segemnt 1 adalah 843
+
+![Generasi Based on Segment](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/bc68f613-df17-4060-8b11-bf78bb46a637)
+![Jumlah Tanggungan Based on Segment](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/f0a9fc13-74ec-4603-8a38-047ab4c0a9b5)
+![Income Group Based on Segment](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/5810b4b3-e303-4e4c-b0d3-58e5a253e398)
+![Income Based on Segment](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/8e8af333-23b8-424e-b1f5-893fe076dcd1)
 
 ## Conclusion
 1. Target campaign memiliki jumlah customer yang lebih sedikit yaitu 843 customer
