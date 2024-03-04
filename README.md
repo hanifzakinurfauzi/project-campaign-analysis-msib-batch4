@@ -42,7 +42,7 @@ Kolom Pendapatan dan Income Group memiliki korelasi postif yang kuat dengan kolo
 
 ![Segmentation](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/13b8d726-2a93-4875-ba0e-a80d6bebb53f)
 
-Jumlah customer pada kelompok segemnt 0 adalah 1397
+Jumlah customer pada kelompok segemnt 0 adalah 1397 <br>
 Jumlah customer pada kelompok segemnt 1 adalah 843
 
 ![Generasi Based on Segment](https://github.com/hanifzakinurfauzi/project-campaign-analysis-msib-batch4/assets/110440805/bc68f613-df17-4060-8b11-bf78bb46a637)
