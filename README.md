@@ -11,6 +11,8 @@ PT ABC (nama samaran) adalah sebuah perusahaan asal Indonesia yang bergerak di b
 ## Business Understanding
 Pada Langkah business understanding kami ingin memahami permasalahan business yang dimiliki oleh perusahaan dan menentukan tujuan dari hasil analysis ini. Untuk memahami permasalahan bisnis nya, kami melakukan cohort analysis yaitu metode yang digunakan untuk menganalisis serta mengevaluasi perubahan perilaku sekelompok orang tertentu, yang melibatkan fitur demografis umum dalam kurun waktu tertentu. Dari hasil cohort analysisnya bisa kita lihat bahwa sekelompok customer pada 10 bulan terakhir penjualan di perusahaan ABC mengalami penurunan jumlah pembelian barang rata-rata hingga 8%. Dari 63.331 jumlah barang yang dibeli oleh customer pada bulan Oktober 2013 terus menurun hingga 33.153 pada bulan Juni 2014. 
 
+![Uploading Cohort Analysis.png…]()
+
 ## Goals and Strategy
 Setelah mengetahui permasalahan business nya, kita bisa menargetkan tujuan kita yaitu:
 1. Meningkatkan repurchasing dengan melakukan Customer profiling untuk merencanakan strategi campaign.
